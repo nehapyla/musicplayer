@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.input{
+    width: 30rem;
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 2rem;
+    font-size: 1rem;
+}
+
+button{
+    width: 7rem;
+    height: 2rem;
+    margin-right: 2rem;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.audio{
+    width: 60rem;
+    border: 5px double;
+    border-radius: 10px;
+}
+
+.currentsongimg{
+    width: 15rem;
+    height: 15rem;
+    border: 4px double black;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+img{
+    width: 15rem;
+    height: 15rem;
+    border: 4px double black;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.songimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

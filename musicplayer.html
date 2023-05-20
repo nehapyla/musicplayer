@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC PLAYER</title>
+    <link rel="stylesheet" href="./musicplayer.css">
+</head>
+<body>
+    <div>
+        <label for="">JIOSAVAAN</label>
+        <input class="input" onchange="data()" type="text" placeholder="Type here to search">
+    </div>
+
+    <div class="all">
+        <button class="songss" value="All" type="button" onclick="mainfunction(event)">All</button>
+        <button class="songss" value="Trending Songs" type="button" onclick="mainfunction(event)">Trending Songs</button>
+        <button class="songss" value="New Songs" type="button" onclick="mainfunction(event)">New Songs</button>
+        <button class="songss" value="Old Songs" type="button" onclick="mainfunction(event)">Old Songs</button>
+        <button class="songss" value="Albumn" type="button" onclick="mainfunction(event)">Albumn</button>
+        <button class="songss" value="Radio" type="button" onclick="mainfunction(event)">Radio</button>
+        <button class="songss" value="Podcast" type="button" onclick="mainfunction(event)">Podcast</button>
+        <button class="songss" value="Moods & Genres" type="button" onclick="mainfunction(event)">Moods & Genres</button>
+        <button class="songss" value="My Music" type="button" onclick="mainfunction(event)">My Music</button>
+    </div>
+
+    <div class="divcenter">
+        <div class="list"></div>
+        <div class="songimg">
+            <img class="currentsongimg" src="https://media.istockphoto.com/id/1175435360/vector/music-note-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=R7s6RR849L57bv_c7jMIFRW4H87-FjLB8sqZ08mN0OU=" alt=""> 
+        </div>
+    </div>
+
+    <div class="trend">
+        <audio class="audio" src="" controls autoplay></audio>
+    </div>
+</body>
+<script src="./musicplayer.js"></script>
+</html>
